@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<meta http-equiv="Content_type" content="text/html"; charset="utf-8" >
+		<style type="text/css">
+			/*1.reset开始*/
+			*{margin:0; padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+			/*reset结束*/
+
+			/*2.设置全局背景颜色*/
+			body{background:#DADADA;}
+
+
+			/*3.设置main items的样式*/
+			.main{width:960px; height:600px; background:#F3F3F3; margin:0 auto;}
+			.main .items{width:100%; height:100%; margin:27px;}
+
+			.items .item{
+				width:430px;
+				height:240px;
+				float:left;
+				border:1px solid #CCC;
+				margin-top:27px;
+				margin-right:27px;
+				border-radius:6px; /*圆角*/
+				background:url(http://www.kkh86.com/it/html-base/img/preview/body1-step5-8.jpg) repeat-x;
+				box-shadow:1px 2px 0px rgba(0, 0, 0, 0.3); /*这个是阴影,效果图中的item是有阴影的哦!不过我没教过这个样式,少用,感兴趣就自己上网查吧*/
+			}
+		 
+			.itemLeft{
+				width:175px;
+				height: 100%;
+				float:left;
+			}
+
+			.itemLeft img{
+				margin-top:63px; 
+				margin-left:10px;
+			}
+
+			.itemRight h4{
+				font-size:17.5px; 
+				margin-top:33px;
+				maring-bottom:15px;
+			}
+			.itemRight p{
+				margin-top:6px; 
+				font-size:14px; 
+			}
+			.itemRight{
+				width:230px;
+				height: 100%;
+				float:left;
+				color:#777;
+				font-family:"微软雅黑";
+				background:url(http://www.kkh86.com/it/html-base/img/preview/body1-step5-9.png) no-repeat;
+				padding-left:17px; /*不要随便用padding是因为防止把自己撑大,但这里把自己撑大无所谓,外面不会变形就好*/
+				position:relative; /*如果这里不加relative相对定位,那么下面img的绝对定位就会相对于body里绝对定位咯*/
+			}
+			.item .itemRight img{
+					position:absolute; 
+					right:17px; 
+					bottom:13px;
+		}
+			.item .itemRight img{
+			position:absolute; 
+			right:17px; 
+			bottom:13px;
+		}
+		/*下面微调一下各个大图标的左外边距*/
+		.items .item2 img{margin-left:20px;}
+		.items .item3 img,.items .item4 img{margin-left:30px;}	
+		</style>
+	</head>
+<div class="main">
+	<div class="items">
+		<div class="item item1">
+			<div class="itemLeft">
+				<img src="css/body1-step5-2.png" />
+			</div>
+			<div class="itemRight">
+				<!--第5.3步新增内容-->
+				<h4>提升活跃度</h4>
+				<p>9种社交帐号快速登录</p>
+				<p>实时回复提醒</p>
+				<p>评论流实时显示</p>
+				<p>"顶起"评论功能</p>
+				<p>25套表情包</p>
+					
+				<img src="css/body1-more.png" />
+			</div>
+		</div>
+			
+		<div class="item item2">
+			<div class="itemLeft">
+				<img src="css/body1-step5-10.png" />
+			</div>
+			<div class="itemRight">
+				<!--从第5.3步复制进来的内容-->
+				<h4>提升活跃度</h4>
+				<p>9种社交帐号快速登录</p>
+				<p>实时回复提醒</p>
+				<p>评论流实时显示</p>
+				<p>"顶起"评论功能</p>
+				<p>25套表情包</p>
+					
+				<img src="css/body1-more.png" />
+			</div>
+		</div>
+			
+		<div class="item item3">
+			<div class="itemLeft">
+				<img src="css/body1-step5-11.png" />
+			</div>
+			<div class="itemRight">
+				<!--从第5.3步复制进来的内容-->
+				<h4>提升活跃度</h4>
+				<p>9种社交帐号快速登录</p>
+				<p>实时回复提醒</p>
+				<p>评论流实时显示</p>
+				<p>"顶起"评论功能</p>
+				<p>25套表情包</p>
+					
+				<img src="css/body1-more.png" />
+			</div>
+		</div>
+			
+		<div class="item item4">
+			<div class="itemLeft">
+				<img src="css/body1-step5-12.png" />
+			</div>
+			<div class="itemRight">
+				<!--从第5.3步复制进来的内容-->
+				<h4>提升活跃度</h4>
+				<p>9种社交帐号快速登录</p>
+				<p>实时回复提醒</p>
+				<p>评论流实时显示</p>
+				<p>"顶起"评论功能</p>
+				<p>25套表情包</p>
+					
+				<img src="css/body1-more.png" />
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
